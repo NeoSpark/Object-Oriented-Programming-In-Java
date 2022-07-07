@@ -1,0 +1,94 @@
+1.
+Question 1
+
+
+
+Which keyword do you use to create a new instance of an object?
+
+new
+
+
+2.
+Question 2
+
+Consider the following code (defined in two different appropriately named files):
+public class MyClass
+{
+  public int a;
+  public double b;
+  public MyClass(int first, double second)
+  {
+    this.a = first;
+    this.b = second;
+  }
+  public boolean same(MyClass other)
+  {
+    return other.a == this.a && other.b == this.b;
+  }
+}
+
+public class MyClassTester
+{
+  public static void main(String[] args)
+  {
+    MyClass c1 = new MyClass(30, 123.9);
+    MyClass c2 = new MyClass(30, 29.7);
+    MyClass c3 = new MyClass(c1.a, c2.b);
+
+    System.out.println(c2.same(c3));
+  }
+}
+
+In the main method of MyClassTester, how many objects (instances) of type MyClass are created?
+
+	3
+
+
+3.
+Question 3
+
+Referring to the same code as the previous question:
+What does the main method of MyClassTester print?
+
+	true
+
+
+4.
+Question 4
+
+Please review the code below:
+public class MyClass2 
+{
+  //...
+  public void method1(int a)
+  {
+  }
+
+}
+Given the class above, which method signature(s) below would be valid for method overloading (in other words, which methods could you add without a compiler error)? More than one answer may be correct.
+
+	public void method1(int a, int b)
+	public void method1(String a)
+
+
+Consider the code:
+public class MyClass3
+{
+  private int a;
+
+  public MyClass3(int first)
+  {
+    this.a = first;
+  }
+}
+
+public class MyClassTester
+{
+  public static void main(String[] args)
+  {
+    MyClass3 c1 = new MyClass3(30);
+    System.out.println(c1.a);
+  }
+}
+
+	Compiler Error

@@ -1,0 +1,203 @@
+Question 1
+
+Hold on, isn't it a bit too early for a quiz?
+
+One of the most 
+common questions we've gotten is "Am I ready for this course?" To help 
+you answer this question, we encourage you to work through this quiz. 
+Half of these questions ask about your experience, while the other half 
+are technical question that involve programming in Java.
+
+If you're taking this course as the third course in the Object Oriented Programming in Java specialization, you're almost certainly ready for this course, and you can probably skip this quiz.   (Though you still might want to take it to see what we expect you to definitely have learned in the previous courses in the specialization).
+
+If not, we recommend you take the quiz.  If you score less than 50%, we recommend you look into this Coursera Introduction Java Programming Specialization and come back to us when you complete those courses.   
+
+However,
+ you are very welcome to stick with this course instead if you prefer, 
+and if you don't mind brushing up on your Java programming as needed 
+along the way.
+
+So let's begin:
+
+Have you written code in Java? 
+
+Yes
+
+
+Question 2
+
+Have you written code with explicitly typed variables, i.e. where you have to declare your variables to have specific types?  For example:
+	int i = 5;
+	double d = 5.2;
+If you have written code in Java, C, or C++, you probably have.  If you have written code only in Python or Javascript, you probably have not.
+
+Yes
+
+
+Question 3
+
+Have you written code that uses conditional statement (if-statements), including using compound boolean expressions (e.g. x < 5 && x > 0) and multiple if-else  clauses (e.g. if... else if... else), to solve problems?
+
+Yes
+
+
+4.
+Question 4
+
+Have you implemented code that uses for-loops and while-loops, including nested for-loops?
+
+Yes
+
+
+5.
+Question 5
+
+Have you written methods that take parameters, both with and without return values?
+
+Yes
+
+
+6.
+Question 6
+
+Have you written code that manipulates (i.e. accesses and/or changes the values in) arrays in Java (or similar language)?  E.g. 
+
+// Assume arr is an array of ints
+int sum = 0;
+for (int i = 0; i < arr.length; i++) {
+    sum += arr[i];
+    arr[i] += 1;
+}
+
+Yes
+
+
+7.
+Question 7
+
+What is the output of the following Java code (assume the code is in main)?
+int x = 7;
+int y = x;
+x = 2;
+System.out.println(x + ", " + y);
+
+	2,7
+
+
+8.
+Question 8
+
+What is the output from the following code?
+public class Question2 {
+   public static void main(String[] args) {
+      int a = 5;
+      int b = 7;
+      swap(a,b);
+      System.out.println(a + ", " + b);
+   }
+   public static void swap(int a, int b) {
+      int temp = a;
+      a = b;
+      b = temp;
+   }
+}
+
+	5,7
+
+
+9.
+Question 9
+
+Assume the method below is in the Turtle class.
+
+public class Turtle {
+  // Other code here
+
+  public Turtle() {
+     // default constructor code here
+  }
+
+  // draw a line from current location to the location
+  // specified
+  public void drawLine(int x, int y) {
+    // more code
+  }
+}
+
+What is the right way to call the drawLine method above?
+
+Turtle t = new Turtle();
+t.drawLine(10,10);
+
+
+10.
+Question 10
+
+What is the output from running the following code?
+public class Question4 {
+  public static void main(String [] args) {
+    for( int i = 0; i<5; i++) {
+      System.out.println(i);
+    }
+  }
+}
+
+	0 1 2 3 4
+
+
+11.
+Question 11
+
+public class Question5 {
+  public static void main(String [] args) {
+    for( int x = 0; x<3; x++) {
+      // XXX FOR LOOP MISSING // 
+        System.out.println(x + ", "+y);
+      }
+    }
+  }
+}
+Which "for" loop should go in the code above to produce the output below:
+0, 0
+
+0, 1
+
+1, 0
+
+1, 1
+
+2, 0
+
+2, 1
+
+	for(int y = 0; y < 2; y++) {
+
+
+12.
+Question 12
+
+public class Question12 {
+  public static void main(String[] args) {
+    int[] array = {20, -10, 15, -7, -8, 45};
+    int sum = 0;
+    for(int i = 0; i<array.length;i++) {
+      // MISSING IF STATEMENT //
+        sum+=array[i];
+      }
+    }
+    System.out.println(sum);
+  }
+}
+
+In the code above, which if statement below would make it so only the positive values in the array are summed?  The output of this program should be:
+80
+
+	if(array[i] > 0) {
+
+
+13.
+Question 13
+
+If you score less than 50% on this quiz, what should you do?
+
+	We recommend you look into an earlier course on Java programming.  Specifically, we recommend the Java Programming: An Introduction to Software Specialization by Duke University.
