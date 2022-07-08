@@ -1,0 +1,45 @@
+1.
+Question 1
+
+Consider the following line of code:
+
+map1 = new UnfoldingMap(this, 50, 50, 350, 500, 
+                        new Google.GoogleMapProvider());
+
+
+What is the y-coordinate which corresponds to the pixel at the lower left corner of the map that is created by the line of code above? 
+
+Remember that the axis (0,0) for pixels is in the upper left corner of the screen and higher y values appear lower on the screen. 
+(This is unlike Cartesian coordinates where higher y values appear higher than the axis (0,0).)
+
+	50
+
+
+2.
+Question 2
+
+Which of the following lines of code will create two maps of the same height next to each other, side-by-side in the window.
+
+
+	map1 = new UnfoldingMap(50, 50, 200, 300);
+	map2 = new UnfoldingMap(250, 50, 200, 300);
+
+
+3.
+Question 3
+
+Assume you have some code that creates two maps that are supposed to be displayed side by side in an Applet window.  Your code compiles and runs, but only one map 
+shows up in the visible portion of the Applet window when you run it.  Which of the following bugs might explain why?  SELECT ALL the possible mistakes that could be causing this problem.
+
+	Forgeting to call map2.draw()
+	Placing the map outside the coordinates of the window
+
+
+4.
+Question 4
+
+Which of the following latitude, longitude pairs, when passed to the method zoomAndPanTo,  would cause the map to be centered on Rio de Janeiro, Brazil?
+
+	-22.9, -43.2
+
+
